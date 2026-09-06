@@ -22,4 +22,4 @@ CREATE TABLE IF NOT EXISTS atendimento (
     CONSTRAINT fk_atendimento_atendente
         FOREIGN KEY (id_atendente)
         REFERENCES atendente(id_atendente)
-);
+); 
