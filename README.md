@@ -93,3 +93,6 @@ erDiagram
     ATENDIMENTO ||--o{ ATENDIMENTO_SERVICO : utiliza
     SERVICO ||--o{ ATENDIMENTO_SERVICO : utilizado_em
 ```
+
+
+
