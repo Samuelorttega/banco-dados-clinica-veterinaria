@@ -1,4 +1,4 @@
-7Clínica Veterinária
+Clínica Veterinária
 
 Apresentação do Projeto
 
