@@ -16,7 +16,7 @@ Público-Alvo
 
 O banco de dados é destinado a clínicas veterinárias e seus funcionários, como atendentes, veterinários e responsáveis pela administração, que precisam organizar e consultar informações sobre clientes, animais, atendimentos e vendas.
 
-erDiagram
+'''erDiagram
     CLIENTE {
         int id_cliente PK
         varchar nome
@@ -90,4 +90,4 @@ erDiagram
     ATENDIMENTO ||--o{ ATENDIMENTO_PRODUTO : utiliza
     PRODUTO ||--o{ ATENDIMENTO_PRODUTO : utilizado_em
     ATENDIMENTO ||--o{ ATENDIMENTO_SERVICO : utiliza
-    SERVICO ||--o{ ATENDIMENTO_SERVICO : utilizado_em
+    SERVICO ||--o{ ATENDIMENTO_SERVICO : utilizado_em'''
